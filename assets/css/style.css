@@ -158,6 +158,35 @@ li.slick-active { color: #000; }
 
 li.slick-active::after { color: #000; top: 16px; }
 
+/* Travel page */
+.travel { display: grid; grid-template-columns: 31% 31% 31%; grid-gap: 3.4%; }
+
+.travel__thumbnail { text-align: center; }
+
+.travel__thumbnail a { text-decoration: none; }
+
+.travel__thumbnail .travel__thumbnail__title { font-size: 2vw; margin-top: 20px; text-transform: capitalize; }
+
+@media (min-width: 960px) { .travel__thumbnail__title { font-size: 1rem !important; } }
+
+.gallery { display: grid; grid-template-columns: 23% 23% 23% 23%; grid-gap: 2.6%; }
+
+.gallery .gallery__img { transition: .3s linear; }
+
+.gallery .gallery__img:hover { opacity: .3; }
+
+.gallery .gallery__wrap { position: relative; overflow: hidden; }
+
+.gallery .gallery__title { color: blue; position: absolute; left: 50%; top: 104%; transform: translateX(-50%); font-size: 3vw; transition: .5s; }
+
+.gallery__hover .gallery__title { top: 50%; transform: translate(-50%, -100%); }
+
+.selected { position: relative; }
+
+.selected .selected__title { position: absolute; bottom: 60px; }
+
+.selected .selected__desc { position: absolute; bottom: 30px; }
+
 /* mobile */
 @media (max-width: 700px) { .sideMenu { display: none; }
   .main-title { font-size: 40px; }

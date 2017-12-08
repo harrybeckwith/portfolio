@@ -476,24 +476,90 @@ li.slick-active::after {
   color: #000;
   top: 16px; }
 
+/* Travel page */
+/* line 497, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.travel {
+  display: grid;
+  grid-template-columns: 31% 31% 31%;
+  grid-gap: 3.4%; }
+
+/* line 503, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.travel__thumbnail {
+  text-align: center; }
+  /* line 505, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .travel__thumbnail a {
+    text-decoration: none; }
+  /* line 508, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .travel__thumbnail .travel__thumbnail__title {
+    font-size: 2vw;
+    margin-top: 20px;
+    text-transform: capitalize; }
+
+@media (min-width: 960px) {
+  /* line 516, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .travel__thumbnail__title {
+    font-size: 1rem !important; } }
+
+/* line 521, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.gallery {
+  display: grid;
+  grid-template-columns: 23% 23% 23% 23%;
+  grid-gap: 2.6%; }
+  /* line 525, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .gallery .gallery__img {
+    transition: .3s linear; }
+    /* line 527, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    .gallery .gallery__img:hover {
+      opacity: .3; }
+  /* line 531, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .gallery .gallery__wrap {
+    position: relative;
+    overflow: hidden; }
+  /* line 535, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .gallery .gallery__title {
+    color: blue;
+    position: absolute;
+    left: 50%;
+    top: 104%;
+    transform: translateX(-50%);
+    font-size: 3vw;
+    transition: .5s; }
+
+/* line 546, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.gallery__hover .gallery__title {
+  top: 50%;
+  transform: translate(-50%, -100%); }
+
+/* line 551, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.selected {
+  position: relative; }
+  /* line 553, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .selected .selected__title {
+    position: absolute;
+    bottom: 60px; }
+  /* line 557, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .selected .selected__desc {
+    position: absolute;
+    bottom: 30px; }
+
 /* mobile */
 @media (max-width: 700px) {
-  /* line 498, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 567, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .sideMenu {
     display: none; }
-  /* line 501, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 570, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .main-title {
     font-size: 40px; }
-  /* line 504, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 573, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .blog {
     grid-template-columns: 100% !important; }
-  /* line 507, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 576, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .logo__text {
     font-size: 28px; }
-  /* line 510, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 579, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   body {
     padding: 40px; }
-  /* line 513, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 582, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .section {
     height: auto;
     margin-bottom: 150px; } }
