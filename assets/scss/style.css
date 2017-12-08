@@ -1,0 +1,451 @@
+/*colours*/
+/* Mixins */
+/* fonts */
+/* line 11, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Amaranth', sans-serif; }
+
+/* line 19, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+p::-moz-selection {
+  color: #fff; }
+
+/* line 23, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+p::selection {
+  color: #fff; }
+
+/* line 27, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+::-moz-selection {
+  background: #2b63f8; }
+
+/* line 31, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+::selection {
+  background: #2b63f8; }
+
+/* line 35, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+p {
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  line-height: 1.2em;
+  letter-spacing: 1px;
+  position: relative;
+  color: #000; }
+
+/* line 44, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+a {
+  color: inherit; }
+
+/* line 48, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+body {
+  font-family: 'Titillium Web', sans-serif;
+  padding: 50px;
+  font-size: 1.25rem;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #000; }
+
+/* line 58, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.sideMenu {
+  position: fixed;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%); }
+  /* line 63, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .sideMenu li {
+    width: 1px;
+    height: 20px;
+    background: #b5b3b3;
+    transition: .3s linear;
+    margin-bottom: 10px; }
+    /* line 69, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    .sideMenu li a {
+      display: block;
+      padding: 10px; }
+    /* line 73, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    .sideMenu li:hover {
+      background: #000; }
+
+/* line 79, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.location-link {
+  padding-top: 4%;
+  margin-top: -4%;
+  display: block; }
+
+/* line 85, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.active-menu {
+  background: #000 !important; }
+
+/* line 89, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.section {
+  height: 100vh; }
+
+/* line 93, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.container {
+  max-width: 810px;
+  padding: 0;
+  margin: 0 auto; }
+
+/* line 99, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.container__animate {
+  padding-top: 300px;
+  opacity: 0; }
+
+/* line 104, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.container__animate p {
+  max-width: 500px; }
+
+/* body border */
+/* line 111, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.border-white #top,
+.border-white #bottom,
+.border-white #left,
+.border-white #right {
+  background: #fff; }
+
+/* line 118, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#top,
+#bottom,
+#left,
+#right {
+  background: #2b63f8;
+  position: fixed;
+  z-index: 2; }
+
+/* line 127, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#left,
+#right {
+  top: 0;
+  bottom: 0;
+  width: 0px; }
+
+/* line 134, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#left {
+  left: 0; }
+
+/* line 138, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#right {
+  right: 0; }
+
+/* line 142, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#top,
+#bottom {
+  left: 0;
+  right: 0;
+  height: 0px; }
+
+/* line 149, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#top {
+  top: 0; }
+
+/* line 153, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#bottom {
+  bottom: 0; }
+
+/* particles*/
+/* line 160, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.particles-js-canvas-el {
+  width: 96% !important;
+  height: 95% !important;
+  position: absolute; }
+
+/* line 166, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+header {
+  position: fixed;
+  left: 50px;
+  right: 50px;
+  top: -125px;
+  z-index: 2; }
+
+/* line 174, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.logo {
+  float: left; }
+
+/* line 178, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.logo__icon {
+  color: #2b63f8;
+  font-size: 40px !important;
+  margin-right: 10px; }
+
+/* line 184, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.logo__icon,
+.logo__text {
+  display: inline-block;
+  vertical-align: middle; }
+
+/* line 190, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.logo__text {
+  transition: .3s linear;
+  font-size: 38px; }
+
+/* line 195, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.logo__text:hover {
+  color: #2b63f8; }
+
+/* line 199, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.logo__text span {
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 6px; }
+
+/* line 206, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3 {
+  width: 25px;
+  height: 45px;
+  position: relative;
+  float: right;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  cursor: pointer; }
+
+/* line 222, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  background: gray;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out; }
+
+/* line 241, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3 span:nth-child(1) {
+  top: 0px; }
+
+/* line 245, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3 span:nth-child(2),
+#nav-icon3 span:nth-child(3) {
+  top: 7px; }
+
+/* line 250, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3 span:nth-child(4) {
+  top: 14px; }
+
+/* line 254, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3.open span:nth-child(1) {
+  top: 18px;
+  width: 0%;
+  left: 50%; }
+
+/* line 260, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg); }
+
+/* line 267, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg); }
+
+/* line 274, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3.open span:nth-child(4) {
+  top: 18px;
+  width: 0%;
+  left: 50%; }
+
+/* line 280, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.white-logo {
+  color: #fff; }
+
+/* line 284, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+#nav-icon3.open span {
+  background: #fff; }
+
+/* line 288, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table; }
+
+/* line 294, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.menu {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  background: #2b63f8;
+  display: none; }
+
+/* line 304, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.ball {
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  top: 10px;
+  right: 11px;
+  transition: .2s ease;
+  border-bottom-left-radius: 100px; }
+
+/* line 314, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.active-ball {
+  width: 98.65%;
+  height: 97.7%;
+  top: 10px;
+  right: 10px;
+  border-radius: 0;
+  background: #2b63f8;
+  z-index: 1; }
+
+/* line 324, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.main-title {
+  font-size: 50px;
+  color: #2b63f8;
+  line-height: 1.2;
+  margin-bottom: 30px; }
+
+/* line 331, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.main-title-container {
+  position: relative; }
+
+/* line 335, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.main-title-container span {
+  position: absolute;
+  width: 0%;
+  height: 1px;
+  background: #2b63f8;
+  left: 0;
+  bottom: 0; }
+
+/* blog */
+/* line 347, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.blog {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 50px;
+  color: #444;
+  margin: 30px auto; }
+
+/* line 355, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.blog__post {
+  background-color: #fbfbfb;
+  padding: 20px 30px; }
+
+/* line 360, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.blog__title {
+  margin: 15px 0; }
+
+/* line 364, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.blog__date {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #afafaf;
+  font-size: 15px; }
+
+/* line 371, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.blog__link a {
+  font-size: 1.3rem;
+  color: #2b63f8;
+  text-decoration: none;
+  transition: .3s linear; }
+
+/* line 378, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.blog__link a:hover {
+  opacity: .5; }
+
+/* line 382, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.section__title {
+  text-align: center;
+  font-size: 50px;
+  color: #2b63f8;
+  margin-bottom: 50px; }
+
+/* line 389, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.section__subTitle {
+  text-align: center;
+  font-size: 20px;
+  margin: 15px 0; }
+
+/* line 395, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.slick-slide {
+  height: auto !important; }
+  /* line 396, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .slick-slide img {
+    width: 100%; }
+
+/* line 402, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.slick-dots {
+  margin-top: 20px; }
+  /* line 404, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .slick-dots li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 1rem;
+    font-weight: 100;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #a2a2a2;
+    position: relative; }
+    /* line 413, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    .slick-dots li::after {
+      content: "";
+      width: 100%;
+      height: 1px;
+      position: absolute;
+      top: 9px;
+      left: 0;
+      background: #bbb;
+      transition: .3s all; }
+    /* line 423, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    .slick-dots li:hover::after {
+      color: #000;
+      top: 16px; }
+    /* line 427, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    .slick-dots li:hover {
+      color: #000; }
+
+/* line 433, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+li.slick-active {
+  color: #000; }
+
+/* line 437, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+li.slick-active::after {
+  color: #000;
+  top: 16px; }
+
+/* mobile */
+@media (max-width: 700px) {
+  /* line 446, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .sideMenu {
+    display: none; }
+  /* line 449, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .main-title {
+    font-size: 40px; }
+  /* line 452, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .blog {
+    grid-template-columns: 100% !important; }
+  /* line 455, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .logo__text {
+    font-size: 28px; }
+  /* line 458, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  body {
+    padding: 40px; }
+  /* line 461, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .section {
+    height: auto;
+    margin-bottom: 150px; } }
+
+/*# sourceMappingURL=style.css.map */
