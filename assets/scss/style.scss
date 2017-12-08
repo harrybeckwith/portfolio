@@ -4,6 +4,7 @@ $theme-blue: #2b63f8;
 
 /* Mixins */
 
+
 /* fonts */
 
 $dark: #000;
@@ -52,6 +53,10 @@ a {
         opacity: .7;
         color: $theme-blue;
     }
+}
+
+img {
+    max-width: 100%;
 }
 
 body {
@@ -122,15 +127,10 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     display: none;
-
-
     li {
-
         .ball-menu--first::after {
             background: none;
         }
-
-
         a {
             display: inline-block;
             color: #fff;
@@ -150,14 +150,13 @@ body {
                 background: #fff;
                 transition: .3s all;
             }
-
             &:hover::after {
                 width: 0%;
             }
-
         }
     }
 }
+
 
 /* body border */
 

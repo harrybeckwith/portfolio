@@ -19,6 +19,8 @@ a { color: inherit; }
 
 .dark-link:hover { opacity: .7; color: #2b63f8; }
 
+img { max-width: 100%; }
+
 body { font-family: 'Titillium Web', sans-serif; padding: 50px; font-size: 1.25rem; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #000; }
 
 .sideMenu { position: fixed; top: 50%; left: 3%; transform: translateY(-50%); }
