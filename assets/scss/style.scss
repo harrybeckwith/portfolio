@@ -74,6 +74,7 @@ body {
     top: 50%;
     left: 3%;
     transform: translateY(-50%);
+    z-index: 999;
     li {
         width: 1px;
         height: 20px;
@@ -435,7 +436,12 @@ header {
     text-align: center;
     font-size: 50px;
     color: $theme-blue;
-    margin-bottom: 50px;
+    transition: 1s all;
+    opacity: 1;
+}
+
+.fade-title-active {
+    color: green;
 }
 
 .section__subTitle {
@@ -508,7 +514,7 @@ li.slick-active::after {
     .travel__thumbnail__title {
         font-size: 2vw;
         margin-top: 20px;
-        text-transform:capitalize;
+        text-transform: capitalize;
     }
 }
 
@@ -518,10 +524,24 @@ li.slick-active::after {
     }
 }
 
+.travel__title {
+    text-align: center;
+    font-size: 3rem;
+    text-transform: capitalize;
+    span {
+        color: $theme-blue;
+        font-size: 5rem;
+    }
+}
+
+.gallery-pad {
+    padding-top: 170px;
+}
+
 .gallery {
     display: grid;
-    grid-template-columns: 23% 23% 23% 23%;
-    grid-gap: 2.6%;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    margin-top: 50px;
     .gallery__img {
         transition: .3s linear;
         &:hover {
@@ -533,12 +553,12 @@ li.slick-active::after {
         overflow: hidden;
     }
     .gallery__title {
-        color: blue;
+        color: #000;
         position: absolute;
         left: 50%;
         top: 104%;
         transform: translateX(-50%);
-        font-size: 3vw;
+        font-size: 1.5vw;
         transition: .5s;
     }
 }
@@ -550,13 +570,21 @@ li.slick-active::after {
 
 .selected {
     position: relative;
+    width: 60%;
+    margin: 50px auto;
+    max-width: 800px;
+    .selected__desc,
     .selected__title {
-        position: absolute;
-        bottom: 60px;
+        color: #fff;
+        font-size: 1.3vw;
+        padding: 12px 0;
     }
-    .selected__desc {
-        position: absolute;
-        bottom: 30px;
+    .selected__copy {
+        background: #592cf8;
+        left: 0px;
+        right: 0px;
+        bottom: 0;
+        padding: 0px 15px;
     }
 }
 

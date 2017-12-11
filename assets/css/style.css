@@ -23,7 +23,7 @@ img { max-width: 100%; }
 
 body { font-family: 'Titillium Web', sans-serif; padding: 50px; font-size: 1.25rem; line-height: 1; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #000; }
 
-.sideMenu { position: fixed; top: 50%; left: 3%; transform: translateY(-50%); }
+.sideMenu { position: fixed; top: 50%; left: 3%; transform: translateY(-50%); z-index: 999; }
 
 .sideMenu li { width: 1px; height: 20px; background: #b5b3b3; transition: .3s linear; margin-bottom: 10px; }
 
@@ -136,7 +136,9 @@ header { position: fixed; left: 50px; right: 50px; top: -125px; z-index: 2; }
 
 .blog__link a:hover { opacity: .5; }
 
-.section__title { text-align: center; font-size: 50px; color: #2b63f8; margin-bottom: 50px; }
+.section__title { text-align: center; font-size: 50px; color: #2b63f8; transition: 1s all; opacity: 1; }
+
+.fade-title-active { color: green; }
 
 .section__subTitle { text-align: center; font-size: 20px; margin: 15px 0; }
 
@@ -169,7 +171,13 @@ li.slick-active::after { color: #000; top: 16px; }
 
 @media (min-width: 960px) { .travel__thumbnail__title { font-size: 1rem !important; } }
 
-.gallery { display: grid; grid-template-columns: 23% 23% 23% 23%; grid-gap: 2.6%; }
+.travel__title { text-align: center; font-size: 3rem; text-transform: capitalize; }
+
+.travel__title span { color: #2b63f8; font-size: 5rem; }
+
+.gallery-pad { padding-top: 170px; }
+
+.gallery { display: grid; grid-template-columns: 20% 20% 20% 20% 20%; margin-top: 50px; }
 
 .gallery .gallery__img { transition: .3s linear; }
 
@@ -177,15 +185,15 @@ li.slick-active::after { color: #000; top: 16px; }
 
 .gallery .gallery__wrap { position: relative; overflow: hidden; }
 
-.gallery .gallery__title { color: blue; position: absolute; left: 50%; top: 104%; transform: translateX(-50%); font-size: 3vw; transition: .5s; }
+.gallery .gallery__title { color: #000; position: absolute; left: 50%; top: 104%; transform: translateX(-50%); font-size: 1.5vw; transition: .5s; }
 
 .gallery__hover .gallery__title { top: 50%; transform: translate(-50%, -100%); }
 
-.selected { position: relative; }
+.selected { position: relative; width: 60%; margin: 50px auto; max-width: 800px; }
 
-.selected .selected__title { position: absolute; bottom: 60px; }
+.selected .selected__desc, .selected .selected__title { color: #fff; font-size: 1.3vw; padding: 12px 0; }
 
-.selected .selected__desc { position: absolute; bottom: 30px; }
+.selected .selected__copy { background: #592cf8; left: 0px; right: 0px; bottom: 0; padding: 0px 15px; }
 
 /* mobile */
 @media (max-width: 700px) { .sideMenu { display: none; }

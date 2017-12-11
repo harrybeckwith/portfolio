@@ -8,8 +8,8 @@ $(document).ready(function () {
     });
     /* top container*/
     $('.container__animate').animate({
-        'opacity': 1,
-        'padding-top': 234
+        'opacity': 1
+        , 'padding-top': 234
     }, 'slow');
     // underline grow
     $('.main-title-container span').animate({
@@ -23,15 +23,15 @@ $(document).ready(function () {
     $('#top,#bottom').animate({
         'height': 10
     }, {
-        duration: 'slow',
-        easing: 'linear',
-    });
+        duration: 'slow'
+        , easing: 'linear'
+    , });
     $('#left,#right').animate({
         'width': 10
     }, {
-        duration: 'slow',
-        easing: 'linear',
-    });
+        duration: 'slow'
+        , easing: 'linear'
+    , });
     /* menu on click */
     $('#nav-icon3').click(function () {
         $(this).toggleClass('open');
@@ -42,13 +42,13 @@ $(document).ready(function () {
     });
     /* slick slider */
     $('.websites').slick({
-        dots: true,
-        infinite: true,
-        arrows: false,
-        speed: 500,
-        fade: true,
-        cssEase: 'linear',
-        customPaging: function (slider, i) {
+        dots: true
+        , infinite: true
+        , arrows: false
+        , speed: 500
+        , fade: true
+        , cssEase: 'linear'
+        , customPaging: function (slider, i) {
             var title = $(slider.$slides[i]).data('title');
             return '<a class="pager__item"> ' + title + ' </a>';
         }

@@ -67,52 +67,53 @@ body {
   position: fixed;
   top: 50%;
   left: 3%;
-  transform: translateY(-50%); }
-  /* line 77, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  transform: translateY(-50%);
+  z-index: 999; }
+  /* line 78, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .sideMenu li {
     width: 1px;
     height: 20px;
     background: #b5b3b3;
     transition: .3s linear;
     margin-bottom: 10px; }
-    /* line 83, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    /* line 84, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
     .sideMenu li a {
       display: block;
       padding: 10px; }
-    /* line 87, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    /* line 88, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
     .sideMenu li:hover {
       background: #000; }
 
-/* line 93, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 94, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .location-link {
   padding-top: 4%;
   margin-top: -4%;
   display: block; }
 
-/* line 99, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 100, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .active-menu {
   background: #000 !important; }
 
-/* line 103, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 104, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .section {
   height: 100vh; }
 
-/* line 107, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 108, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .container {
   max-width: 810px;
   padding: 0;
   margin: 0 auto; }
 
-/* line 113, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 114, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .container__animate {
   padding-top: 300px;
   opacity: 0; }
 
-/* line 118, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 119, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .container__animate p {
   max-width: 420px; }
 
-/* line 122, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 123, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .ball-menu {
   text-align: center;
   position: absolute;
@@ -121,10 +122,10 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   display: none; }
-  /* line 131, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 132, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .ball-menu li .ball-menu--first::after {
     background: none; }
-  /* line 134, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 135, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .ball-menu li a {
     display: inline-block;
     color: #fff;
@@ -134,7 +135,7 @@ body {
     display: inline-block;
     padding: 20px 0px;
     position: relative; }
-    /* line 143, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    /* line 144, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
     .ball-menu li a::after {
       content: "";
       width: 100%;
@@ -144,19 +145,19 @@ body {
       right: 0;
       background: #fff;
       transition: .3s all; }
-    /* line 153, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    /* line 154, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
     .ball-menu li a:hover::after {
       width: 0%; }
 
 /* body border */
-/* line 163, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 164, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .border-white #top,
 .border-white #bottom,
 .border-white #left,
 .border-white #right {
   background: #fff; }
 
-/* line 170, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 171, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #top,
 #bottom,
 #left,
@@ -165,44 +166,44 @@ body {
   position: fixed;
   z-index: 2; }
 
-/* line 179, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 180, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #left,
 #right {
   top: 0;
   bottom: 0;
   width: 0px; }
 
-/* line 186, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 187, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #left {
   left: 0; }
 
-/* line 190, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 191, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #right {
   right: 0; }
 
-/* line 194, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 195, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #top,
 #bottom {
   left: 0;
   right: 0;
   height: 0px; }
 
-/* line 201, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 202, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #top {
   top: 0; }
 
-/* line 205, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 206, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #bottom {
   bottom: 0; }
 
 /* particles*/
-/* line 212, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 213, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .particles-js-canvas-el {
   width: 96% !important;
   height: 95% !important;
   position: absolute; }
 
-/* line 218, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 219, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 header {
   position: fixed;
   left: 50px;
@@ -210,39 +211,39 @@ header {
   top: -125px;
   z-index: 2; }
 
-/* line 226, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 227, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .logo {
   float: left; }
 
-/* line 230, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 231, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .logo__icon {
   color: #2b63f8;
   font-size: 40px !important;
   margin-right: 10px; }
 
-/* line 236, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 237, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .logo__icon,
 .logo__text {
   display: inline-block;
   vertical-align: middle; }
 
-/* line 242, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 243, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .logo__text {
   transition: .3s linear;
   font-size: 38px; }
 
-/* line 247, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 248, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .logo__text:hover {
   color: #2b63f8; }
 
-/* line 251, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 252, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .logo__text span {
   font-size: 18px;
   display: inline-block;
   vertical-align: middle;
   margin-left: 6px; }
 
-/* line 258, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 259, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3 {
   width: 25px;
   height: 45px;
@@ -258,7 +259,7 @@ header {
   transition: .5s ease-in-out;
   cursor: pointer; }
 
-/* line 274, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 275, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3 span {
   display: block;
   position: absolute;
@@ -277,60 +278,60 @@ header {
   -o-transition: .25s ease-in-out;
   transition: .25s ease-in-out; }
 
-/* line 293, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 294, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3 span:nth-child(1) {
   top: 0px; }
 
-/* line 297, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 298, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3 span:nth-child(2),
 #nav-icon3 span:nth-child(3) {
   top: 7px; }
 
-/* line 302, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 303, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3 span:nth-child(4) {
   top: 14px; }
 
-/* line 306, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 307, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3.open span:nth-child(1) {
   top: 18px;
   width: 0%;
   left: 50%; }
 
-/* line 312, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 313, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3.open span:nth-child(2) {
   -webkit-transform: rotate(45deg);
   -moz-transform: rotate(45deg);
   -o-transform: rotate(45deg);
   transform: rotate(45deg); }
 
-/* line 319, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 320, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3.open span:nth-child(3) {
   -webkit-transform: rotate(-45deg);
   -moz-transform: rotate(-45deg);
   -o-transform: rotate(-45deg);
   transform: rotate(-45deg); }
 
-/* line 326, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 327, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3.open span:nth-child(4) {
   top: 18px;
   width: 0%;
   left: 50%; }
 
-/* line 332, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 333, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .white-logo {
   color: #fff; }
 
-/* line 336, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 337, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 #nav-icon3.open span {
   background: #fff; }
 
-/* line 340, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 341, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .clearfix::after {
   content: "";
   clear: both;
   display: table; }
 
-/* line 346, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 347, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .menu {
   position: fixed;
   left: 0;
@@ -340,7 +341,7 @@ header {
   background: #2b63f8;
   display: none; }
 
-/* line 356, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 357, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .ball {
   width: 50px;
   height: 50px;
@@ -350,7 +351,7 @@ header {
   transition: .2s ease;
   border-bottom-left-radius: 100px; }
 
-/* line 366, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 367, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .active-ball {
   width: 98.65%;
   height: 97.7%;
@@ -360,18 +361,18 @@ header {
   background: #2b63f8;
   z-index: 1; }
 
-/* line 376, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 377, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .main-title {
   font-size: 50px;
   color: #2b63f8;
   line-height: 1.2;
   margin-bottom: 30px; }
 
-/* line 383, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 384, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .main-title-container {
   position: relative; }
 
-/* line 387, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 388, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .main-title-container span {
   position: absolute;
   width: 0%;
@@ -381,7 +382,7 @@ header {
   bottom: 0; }
 
 /* blog */
-/* line 399, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 400, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .blog {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -389,57 +390,62 @@ header {
   color: #444;
   margin: 30px auto; }
 
-/* line 407, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 408, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .blog__post {
   background-color: #fbfbfb;
   padding: 20px 30px; }
 
-/* line 412, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 413, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .blog__title {
   margin: 15px 0; }
 
-/* line 416, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 417, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .blog__date {
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #afafaf;
   font-size: 15px; }
 
-/* line 423, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 424, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .blog__link a {
   font-size: 1.3rem;
   color: #2b63f8;
   text-decoration: none;
   transition: .3s linear; }
 
-/* line 430, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 431, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .blog__link a:hover {
   opacity: .5; }
 
-/* line 434, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 435, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .section__title {
   text-align: center;
   font-size: 50px;
   color: #2b63f8;
-  margin-bottom: 50px; }
+  transition: 1s all;
+  opacity: 1; }
 
-/* line 441, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 443, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.fade-title-active {
+  color: green; }
+
+/* line 447, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .section__subTitle {
   text-align: center;
   font-size: 20px;
   margin: 15px 0; }
 
-/* line 447, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 453, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .slick-slide {
   height: auto !important; }
-  /* line 448, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 454, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .slick-slide img {
     width: 100%; }
 
-/* line 454, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 460, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .slick-dots {
   margin-top: 20px; }
-  /* line 456, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 462, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .slick-dots li {
     display: inline-block;
     margin-right: 20px;
@@ -449,7 +455,7 @@ header {
     cursor: pointer;
     color: #a2a2a2;
     position: relative; }
-    /* line 465, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    /* line 471, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
     .slick-dots li::after {
       content: "";
       width: 100%;
@@ -459,107 +465,129 @@ header {
       left: 0;
       background: #bbb;
       transition: .3s all; }
-    /* line 475, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    /* line 481, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
     .slick-dots li:hover::after {
       color: #000;
       top: 16px; }
-    /* line 479, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    /* line 485, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
     .slick-dots li:hover {
       color: #000; }
 
-/* line 485, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 491, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 li.slick-active {
   color: #000; }
 
-/* line 489, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 495, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 li.slick-active::after {
   color: #000;
   top: 16px; }
 
 /* Travel page */
-/* line 497, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 503, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .travel {
   display: grid;
   grid-template-columns: 31% 31% 31%;
   grid-gap: 3.4%; }
 
-/* line 503, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 509, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .travel__thumbnail {
   text-align: center; }
-  /* line 505, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 511, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .travel__thumbnail a {
     text-decoration: none; }
-  /* line 508, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 514, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .travel__thumbnail .travel__thumbnail__title {
     font-size: 2vw;
     margin-top: 20px;
     text-transform: capitalize; }
 
 @media (min-width: 960px) {
-  /* line 516, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 522, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .travel__thumbnail__title {
     font-size: 1rem !important; } }
 
-/* line 521, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 527, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.travel__title {
+  text-align: center;
+  font-size: 3rem;
+  text-transform: capitalize; }
+  /* line 531, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .travel__title span {
+    color: #2b63f8;
+    font-size: 5rem; }
+
+/* line 537, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+.gallery-pad {
+  padding-top: 170px; }
+
+/* line 541, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .gallery {
   display: grid;
-  grid-template-columns: 23% 23% 23% 23%;
-  grid-gap: 2.6%; }
-  /* line 525, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  margin-top: 50px; }
+  /* line 545, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .gallery .gallery__img {
     transition: .3s linear; }
-    /* line 527, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+    /* line 547, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
     .gallery .gallery__img:hover {
       opacity: .3; }
-  /* line 531, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 551, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .gallery .gallery__wrap {
     position: relative;
     overflow: hidden; }
-  /* line 535, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 555, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .gallery .gallery__title {
-    color: blue;
+    color: #000;
     position: absolute;
     left: 50%;
     top: 104%;
     transform: translateX(-50%);
-    font-size: 3vw;
+    font-size: 1.5vw;
     transition: .5s; }
 
-/* line 546, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 566, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .gallery__hover .gallery__title {
   top: 50%;
   transform: translate(-50%, -100%); }
 
-/* line 551, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+/* line 571, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
 .selected {
-  position: relative; }
-  /* line 553, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  position: relative;
+  width: 60%;
+  margin: 50px auto;
+  max-width: 800px; }
+  /* line 576, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .selected .selected__desc,
   .selected .selected__title {
-    position: absolute;
-    bottom: 60px; }
-  /* line 557, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
-  .selected .selected__desc {
-    position: absolute;
-    bottom: 30px; }
+    color: #fff;
+    font-size: 1.3vw;
+    padding: 12px 0; }
+  /* line 582, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  .selected .selected__copy {
+    background: #592cf8;
+    left: 0px;
+    right: 0px;
+    bottom: 0;
+    padding: 0px 15px; }
 
 /* mobile */
 @media (max-width: 700px) {
-  /* line 567, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 595, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .sideMenu {
     display: none; }
-  /* line 570, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 598, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .main-title {
     font-size: 40px; }
-  /* line 573, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 601, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .blog {
     grid-template-columns: 100% !important; }
-  /* line 576, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 604, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .logo__text {
     font-size: 28px; }
-  /* line 579, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 607, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   body {
     padding: 40px; }
-  /* line 582, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
+  /* line 610, /Users/ithb1/Desktop/portfolio/assets/scss/style.scss */
   .section {
     height: auto;
     margin-bottom: 150px; } }
